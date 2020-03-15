@@ -1,4 +1,4 @@
-# Morse Translator
+# Morse Translator by gh05t-4
 
 print("\t\tMorse Code Translator\n")
 print("""Choose the option:
