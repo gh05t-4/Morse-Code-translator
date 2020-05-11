@@ -26,7 +26,7 @@ morse_chart = {     'A':'.-', 'B':'-...',
 
 # Function to encrypt the message
 if opt == '1':
-        message = raw_input("\nEnter the message to translate: ")
+        message = input("\nEnter the message to translate: ")
         message = message.upper()
         cipher = '' 
         for letter in message: 
@@ -38,7 +38,7 @@ if opt == '1':
 
 # Function to decrypt the morse code 
 elif opt == '2':
-            message = raw_input("\nEnter the morse code to translate: ")
+            message = input("\nEnter the morse code to translate: ")
             message += ' '
   
             decipher = '' 
