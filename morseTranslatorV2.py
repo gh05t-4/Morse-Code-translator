@@ -59,7 +59,7 @@ elif opt == '2':
                         decipher += list(morse_chart.keys())[list(morse_chart .values()).index(citext)] 
                         citext = '' 
 
-            print("\nPlain Text: "+decipher)
+            print("\nPlain Text: {}".format(decipher.capitalize()))
 
 
 else:
