@@ -34,7 +34,7 @@ if opt == '1':
                 cipher += morse_chart[letter] + ' '
             else: 
                 cipher += ' '
-        print("\nMorse Code: "+cipher)
+        print("\nMorse Code: {}\n".format(cipher))
 
 # Function to decrypt the morse code 
 elif opt == '2':
@@ -59,7 +59,7 @@ elif opt == '2':
                         decipher += list(morse_chart.keys())[list(morse_chart .values()).index(citext)] 
                         citext = '' 
 
-            print("\nPlain Text: {}".format(decipher.capitalize()))
+            print("\nPlain Text: {}\n".format(decipher.capitalize()))
 
 
 else:
